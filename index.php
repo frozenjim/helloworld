@@ -27,7 +27,8 @@ $nav = new class_navigation();
  */
 ?>
 <html><body>
-<h1>Homepage :-)</h1>
+<h1>The Homepage :-)</h1>
+get_include_path = <? get_include_path();?>
 
 <?php
 
