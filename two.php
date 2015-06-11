@@ -5,12 +5,12 @@
  */
 session_start();
 
-set_include_path(get_include_path().PATH_SEPARATOR.'/home/james/projects/helloworld/inc');
+set_include_path(get_include_path().PATH_SEPARATOR.'/xampp/htdocs/helloworld/inc');
 spl_autoload_extensions('.php, .inc');
 spl_autoload_register();
 
 /**
- * Initialize Variables
+ * Initialize Some Variables
  */
 
 isset($_SESSION['userID']) ? $userID = $_SESSION['userID'] :$userID = 0;
